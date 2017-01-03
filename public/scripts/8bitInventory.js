@@ -44,7 +44,7 @@ $( document ).ready( function(){
   // get objects when doc is ready
   getObjects();
   // the below are tests to show what is returned when running findObject
-  addObject( 'blue', 'blueberry', 'small' )
+  addObject( 'blue', 'blueberry', 'small' );
   findObject( 'blue', 'small' );
   findObject( 'blue', 'large' );
 }); // end doc ready

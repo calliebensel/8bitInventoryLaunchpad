@@ -8,5 +8,20 @@
   </head>
   <body>
     <h1>8-Bit Inventory Launchpad</h1>
+    <div id='addObject'>
+      <h2>Add New Object</h2>
+      <input type="text" id='objectName' placeholder="new object">
+      <select id='sizeIn'></select>
+      <select id='colorIn'></select>
+      <button type="button" id='addObject'>Add Object</button>
+    </div>
+    <div id='searchObjects'>
+      <h2>Do you have this object?</h2>
+      <select id='searchSize' placeholder='size'></select>
+      <select id='searchColor' placeholder='color'></select>
+      <button type="button" id='searchButton'>Search Objects</button>
+    </div>
+    <div id='appendToDom'></div>
+    <h3>Results</h3>
   </body>
 </html>
